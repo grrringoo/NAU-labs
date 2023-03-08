@@ -9,11 +9,11 @@ const { id, name, description, imageSrc, inStock } = props.product;
     <img class="product-image" :src="imageSrc" />
     <div class="product-info w-full">
       <div class="flex justify-between items-center">
-        <div class="text-xl">{{ name }}</div>
+        <div class="text-xl text-white">{{ name }}</div>
         <span v-if="inStock" class="text-green-400">Є в наявності</span>
         <span v-else class="text-red-400">Немає в наявності</span>
       </div>
-      <p>{{ description }}</p>
+      <p class="text-white">{{ description }}</p>
       <button @click="$emit('productAdded', id)" :disabled="!inStock">Додати в корзину</button>
     </div>
   </div>
