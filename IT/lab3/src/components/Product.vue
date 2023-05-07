@@ -1,11 +1,16 @@
 <script setup lang="ts">
-const props = defineProps(["product"]);
+import { computed } from 'vue';
 
-const { id, name, description, imageSrc, inStock } = props.product;
+const props = defineProps(["product", "isSaveAvailable"]);
+
+const { id, name, description, imageSrc, inStock, onSale } = props.product;
+
+const isSale = computed(() => onSale && props.isSaveAvailable);
 </script>
 
 <template>
-  <div class="product">
+  <div class="product relative">
+    <span v-if="isSale" class="absolute top-[-10px] left-[-30px] bg-red-500 px-3 py-3 text-white rounded-full">Розпродаж</span>
     <img class="product-image" :src="imageSrc" />
     <div class="product-info w-full">
       <div class="flex justify-between items-center">

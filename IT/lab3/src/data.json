@@ -5,7 +5,8 @@
       "name": "Product 1",
       "description": "Description 1",
       "imageSrc": "/src/assets/vmSocks-blue.png",
-      "inStock": true
+      "inStock": true,
+      "onSale": true
     },
     {
       "id": 1,
