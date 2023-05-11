@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#root {
+	display: flex;
+	flex-wrap: wrap;
+	font-family: Roboto, sans-serif;
+	gap: 20px;
+}
+
+img {
+	width: 500px;
+	height: 250px;
+	object-fit: contain;
+	background-color: #dff;
+}
