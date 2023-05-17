@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 
-const props = defineProps(["product", "isSaveAvailable"]);
+const isSaleAvailable = true;
+
+const props = defineProps(["product"]);
 
 const { id, name, description, imageSrc, inStock, onSale } = props.product;
 
-const isSale = computed(() => onSale && props.isSaveAvailable);
+const isSale = computed(() => onSale && isSaleAvailable);
 </script>
 
 <template>
