@@ -1,0 +1,66 @@
+{
+  "amount": 7,
+  "initialBridge": [
+    [
+      2,
+      7
+    ]
+  ],
+  "nodes": [
+    {
+      "id": 0,
+      "connections": [
+        1,
+        4,
+        6
+      ]
+    },
+    {
+      "id": 1,
+      "connections": [
+        0,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 2,
+      "connections": [
+        1,
+        4,
+        6
+      ]
+    },
+    {
+      "id": 3,
+      "connections": [
+        1,
+        6
+      ]
+    },
+    {
+      "id": 4,
+      "connections": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": 5,
+      "connections": [
+        1,
+        6
+      ]
+    },
+    {
+      "id": 6,
+      "connections": [
+        0,
+        2,
+        3,
+        5
+      ]
+    }
+  ]
+}

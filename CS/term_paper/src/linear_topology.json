@@ -1,0 +1,88 @@
+{
+  "amount": 9,
+  "initialBridge": [
+    [
+      1,
+      9
+    ]
+  ],
+  "nodes": [
+    {
+      "id": 0,
+      "connections": [
+        1,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 1,
+      "connections": [
+        0,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 2,
+      "connections": [
+        1,
+        3,
+        7,
+        6
+      ]
+    },
+    {
+      "id": 3,
+      "connections": [
+        0,
+        2,
+        7,
+        6
+      ]
+    },
+    {
+      "id": 4,
+      "connections": [
+        0,
+        1,
+        8
+      ]
+    },
+    {
+      "id": 5,
+      "connections": [
+        0,
+        1,
+        8
+      ]
+    },
+    {
+      "id": 6,
+      "connections": [
+        3,
+        2,
+        8
+      ]
+    },
+    {
+      "id": 7,
+      "connections": [
+        3,
+        2,
+        8
+      ]
+    },
+    {
+      "id": 8,
+      "connections": [
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ]
+}

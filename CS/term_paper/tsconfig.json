@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  }
+}
